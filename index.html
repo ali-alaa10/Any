@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css"
+    />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/norm.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Front End Web</title>
+  </head>
+  <body>
+    <!-- Start Setting Box -->
+    <div class="settingBox">
+      <div class="spin">
+        <i class="fa fa-gear cona"></i>
+      </div>
+      <div class="settingContainer">
+        <div class="optionBox">
+          <h3>Colors</h3>
+          <ul class="colorList">
+            <li class="active" data-color="#7A1CAC"></li>
+            <li data-color="#e91e63"></li>
+            <li data-color="#15B392"></li>
+            <li data-color="#257180"></li>
+          </ul>
+        </div>
+        <div class="optionBox">
+          <h5>Random BackGround</h5>
+          <div class="randBg">
+            <span class="yes active" data-background="yes">Yes</span>
+            <span class="no" data-backGround="no">No</span>
+          </div>
+        </div>
+        <div class="optionBox">
+          <h5>Show Bullets</h5>
+          <div class="bullOp">
+            <span class="yes active" data-display="show">Yes</span>
+            <span class="no" data-display="hide">No</span>
+          </div>
+        </div>
+        <button class="resetOp">Reset Option</button>
+      </div>
+    </div>
+    <!-- End Setting Box -->
+
+    <!-- Start Nav Bullets -->
+    <div class="navBullets">
+      <div class="bullets" data-sec=".aboutUs">
+        <div class="toolTip">About Us</div>
+      </div>
+      <div class="bullets" data-sec=".skills">
+        <div class="toolTip">Our Skill</div>
+      </div>
+      <div class="bullets" data-sec=".gallery">
+        <div class="toolTip">Our Gallery</div>
+      </div>
+      <div class="bullets" data-sec=".timeline">
+        <div class="toolTip">Time Line</div>
+      </div>
+      <div class="bullets" data-sec=".features">
+        <div class="toolTip">Features</div>
+      </div>
+    </div>
+    <!-- End Nav Bullets -->
+
+    <!-- Start Landing -->
+    <div class="landingPage">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="header">
+          <div class="logo">Fantastic</div>
+          <div class="linkContain">
+            <ul class="links">
+              <li><a href="#" data-sec=".aboutUs" class="active">About</a></li>
+              <li><a href="#" data-sec=".skills">Skills</a></li>
+              <li><a href="#" data-sec=".gallery">Gallery</a></li>
+              <li><a href="#" data-sec=".timeline">Time Line</a></li>
+              <li><a href="#" data-sec=".features">Features</a></li>
+              <li><a href="#" data-sec=".testimonials">Testimonials</a></li>
+            </ul>
+            <button class="toggleMenu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="intro">
+        <h1>Hello <span>Fucking</span> World</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem, ipsum.
+          Lorem ipsum
+        </p>
+      </div>
+    </div>
+    <!-- End Landing -->
+
+    <div class="spikes"></div>
+
+    <!-- Start About Us -->
+    <div class="aboutUs">
+      <div class="container">
+        <div class="info">
+          <h2>Hi Dirty World</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem
+            ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+        </div>
+        <div class="imgBox">
+          <img src="./img/about.png" alt="img" />
+        </div>
+      </div>
+    </div>
+    <!-- End About Us -->
+
+    <div class="spikes"></div>
+
+    <!-- Start Our Skill -->
+    <div class="skills">
+      <div class="container">
+        <div class="main-h">
+          <h2>Our Skills</h2>
+        </div>
+        <div class="skillsBox">
+          <div class="skillName">HTML</div>
+          <div class="skillProg">
+            <span data-prog="90%"></span>
+          </div>
+        </div>
+        <div class="skillsBox">
+          <div class="skillName">CSS</div>
+          <div class="skillProg">
+            <span data-prog="80%"></span>
+          </div>
+        </div>
+        <div class="skillsBox">
+          <div class="skillName">Java Script</div>
+          <div class="skillProg">
+            <span data-prog="70%"></span>
+          </div>
+        </div>
+        <div class="skillsBox">
+          <div class="skillName">php</div>
+          <div class="skillProg">
+            <span data-prog="60%"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Our Skill -->
+
+    <div class="spikes"></div>
+
+    <!-- Start Gallery -->
+    <div class="gallery">
+      <div class="container">
+        <div class="main-h">
+          <h2>Our Gallery</h2>
+        </div>
+        <div class="imgBox">
+          <img src="img/g1.jpg" alt="G1" />
+          <img src="img/g2.jpg" alt="G2" />
+          <img src="img/g3.jpg" alt="G3" />
+          <img src="img/g4.jpg" alt="G4" />
+          <img src="img/g5.jpg" alt="G5" />
+          <img src="img/g6.jpg" alt="" />
+          <img src="img/g7.jpg" alt="" />
+          <img src="img/g8.jpg" alt="" />
+          <img src="img/g9.jpg" alt="" />
+          <img src="img/g10.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- End Gallery -->
+
+    <div class="spikes"></div>
+
+    <!-- Start Time Line -->
+    <div class="timeline">
+      <div class="container">
+        <div class="timeContent">
+          <div class="year">2003</div>
+          <div class="left">
+            <div class="content">
+              <h3>My Fucking Year</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Distinctio necessitatibus nulla consectetur voluptatum nihil
+                illo inventore. Pariatur nesciunt libero, excepturi minima
+                cupiditate blanditiis porro numquam, est, quis omnis vel ullam?
+              </p>
+            </div>
+          </div>
+          <div class="clear"></div>
+          <div class="left">
+            <div class="content">
+              <h3>My Fucking Year</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Distinctio necessitatibus nulla consectetur voluptatum nihil
+                illo inventore. Pariatur nesciunt libero, excepturi minima
+                cupiditate blanditiis porro numquam, est, quis omnis vel ullam?
+              </p>
+            </div>
+          </div>
+          <div class="clear"></div>
+          <div class="right">
+            <div class="content">
+              <h3>My Fucking Year</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Distinctio necessitatibus nulla consectetur voluptatum nihil
+                illo inventore. Pariatur nesciunt libero, excepturi minima
+                cupiditate blanditiis porro numquam, est, quis omnis vel ullam?
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="timeContent">
+          <div class="year">2020</div>
+          <div class="left">
+            <div class="content">
+              <h3>My Fucking Year</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Distinctio necessitatibus nulla consectetur voluptatum nihil
+                illo inventore. Pariatur nesciunt libero, excepturi minima
+                cupiditate blanditiis porro numquam, est, quis omnis vel ullam?
+              </p>
+            </div>
+          </div>
+          <div class="clear"></div>
+          <div class="right">
+            <div class="content">
+              <h3>My Fucking Year</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Distinctio necessitatibus nulla consectetur voluptatum nihil
+                illo inventore. Pariatur nesciunt libero, excepturi minima
+                cupiditate blanditiis porro numquam, est, quis omnis vel ullam?
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="timeContent">
+          <div class="year">2024</div>
+          <div class="left">
+            <div class="content">
+              <h3>My Fucking Year</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Distinctio necessitatibus nulla consectetur voluptatum nihil
+                illo inventore. Pariatur nesciunt libero, excepturi minima
+                cupiditate blanditiis porro numquam, est, quis omnis vel ullam?
+              </p>
+            </div>
+          </div>
+          <div class="clear"></div>
+          <div class="right">
+            <div class="content">
+              <h3>My Fucking Year</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Distinctio necessitatibus nulla consectetur voluptatum nihil
+                illo inventore. Pariatur nesciunt libero, excepturi minima
+                cupiditate blanditiis porro numquam, est, quis omnis vel ullam?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Time Line -->
+
+    <div class="spikes"></div>
+
+    <!-- Start Features -->
+    <div class="features">
+      <div class="main-h">
+        <h2>Our Features</h2>
+      </div>
+      <div class="container">
+        <div class="featBox">
+          <img src="img/f3.png" alt="Features" />
+          <h3>Development</h3>
+          <p>Hello World We Are FullStack We Developer</p>
+        </div>
+        <div class="featBox">
+          <img src="img/f4.png" alt="Features" />
+          <h3>Development</h3>
+          <p>Hello World We Are FullStack We Developer</p>
+        </div>
+        <div class="featBox">
+          <img src="img/f5.png" alt="Features" />
+          <h3>Development</h3>
+          <p>Hello World We Are FullStack We Developer</p>
+        </div>
+        <div class="featBox">
+          <img src="img/f6.png" alt="Features" />
+          <h3>Development</h3>
+          <p>Hello World We Are FullStack We Developer</p>
+        </div>
+        <div class="featBox">
+          <img src="img/f7.png" alt="Features" />
+          <h3>Development</h3>
+          <p>Hello World We Are FullStack We Developer</p>
+        </div>
+        <div class="featBox">
+          <img src="img/f8.png" alt="Features" />
+          <h3>Development</h3>
+          <p>Hello World We Are FullStack We Developer</p>
+        </div>
+        <div class="clear"></div>
+      </div>
+    </div>
+    <!-- End Features -->
+
+    <div class="spikes"></div>
+
+    <!-- Start Testimonials -->
+    <div class="testimonials">
+      <div class="container">
+        <div class="main-h">
+          <h2>Testimonials</h2>
+        </div>
+        <div class="tsWrap">
+          <div class="tsBox">
+            <p>
+              Holla Its A New Day Its A New Bitch And You Are Welcome My Age Is
+              21 Good Job
+            </p>
+            <div class="personInfo">
+              <img src="img/person.png" alt="Person" />
+              <h5>Ali ALaa</h5>
+              <p>CEO At Google and Nasa Founder</p>
+            </div>
+          </div>
+          <div class="tsBox">
+            <p>
+              Holla Its A New Day Its A New Bitch And You Are Welcome My Age Is
+              21 Good Job
+            </p>
+            <div class="personInfo">
+              <img src="img/person.png" alt="Person" />
+              <h5>Ali ALaa</h5>
+              <p>CEO At Google and Nasa Founder</p>
+            </div>
+          </div>
+          <div class="tsBox">
+            <p>
+              Holla Its A New Day Its A New Bitch And You Are Welcome My Age Is
+              21 Good Job
+            </p>
+            <div class="personInfo">
+              <img src="img/person.png" alt="Person" />
+              <h5>Ali ALaa</h5>
+              <p>CEO At Google and Nasa Founder</p>
+            </div>
+          </div>
+          <div class="tsBox">
+            <p>
+              Holla Its A New Day Its A New Bitch And You Are Welcome My Age Is
+              21 Good Job
+            </p>
+            <div class="personInfo">
+              <img src="img/person.png" alt="Person" />
+              <h5>Ali ALaa</h5>
+              <p>CEO At Google and Nasa Founder</p>
+            </div>
+          </div>
+          <div class="tsBox">
+            <p>
+              Holla Its A New Day Its A New Bitch And You Are Welcome My Age Is
+              21 Good Job
+            </p>
+            <div class="personInfo">
+              <img src="img/person.png" alt="Person" />
+              <h5>Ali ALaa</h5>
+              <p>CEO At Google and Nasa Founder</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Testimonials -->
+
+    <div class="spikes"></div>
+
+    <!-- Start Contact Us -->
+    <div class="contact">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="main-h">
+          <h2>Contact Us</h2>
+        </div>
+        <form>
+          <div class="left">
+            <input type="text" name="userName" placeholder="Your Name" />
+            <input type="text" name="userPhone" placeholder="Your Phone" />
+            <input type="email" name="userEmail" placeholder="Your Email" />
+            <input type="text" name="userSubject" placeholder="Your Subject" />
+          </div>
+          <div class="right">
+            <textarea name="message" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send" />
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- End Contact Us -->
+
+    <!-- Start Footer -->
+    <footer>
+      <div class="footContainer">
+        <div class="about">
+          <h1>GbyStaa</h1>
+          <p>
+            Hallo Fucking Socity My Name Is Ali My Age Is 21 This Is Simple
+            Footer To End My Fucking WebSite
+          </p>
+        </div>
+        <div class="related">
+          <ul>
+            <li><a href="#"><i class="ri-arrow-right-double-fill"></i>About </a></li>
+            <li><a href="#"><i class="ri-arrow-right-double-fill"></i>Skills</a></li>
+            <li><a href="#"><i class="ri-arrow-right-double-fill"></i>Gallery</a></li>
+            <li><a href="#"><i class="ri-arrow-right-double-fill"></i>Features</a></li>
+          </ul>
+          <ul>
+            <li><a href="#"><i class="ri-arrow-right-double-fill"></i>Testimonials</a></li>
+            <li><a href="#"><i class="ri-arrow-right-double-fill"></i>Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="locate">
+          <div class="find"><i class="ri-corner-down-right-fill"></i>+20 112 194 4524 <i class="ri-phone-line"></i></div>
+          <div class="find"><i class="ri-corner-down-right-fill"></i>alialaa@gmail.com <i class="ri-mail-line"></i></div>
+          <div class="find"><i class="ri-corner-down-right-fill"></i>Egypt, Mans <i class="ri-map-pin-line"></i></div>
+          <div class="find">
+            <i class="ri-facebook-fill"></i> <i class="ri-instagram-line"></i>
+            <i class="ri-whatsapp-line"></i>
+            <i class="ri-linkedin-box-fill"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <button id="scrollToTopBtn" style="display: none">⬆️ Top</button>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
